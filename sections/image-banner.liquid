@@ -1,0 +1,59 @@
+{% comment %} <link rel="stylesheet" href="{{ 'fonts.css' |  asset_url }}"> {% endcomment %}
+<link rel="stylesheet" href="{{ 'section-banner.css' | asset_url }}">
+
+<div class="section_image_banner">
+  <div class="image_banner">
+    <img src="{{ section.settings.background_image |  image_url }}" alt="Image Banner">
+  </div>
+  <div class="text_banner">
+    <div class="text_contain">
+      月額 ¥<span>12,298</span>〜<br />
+      実務経験が積める<br />
+      Webマーケティングスクール
+    </div>
+    <a href="{{ section.settings.btn_url }}" class="button_banner">
+      <img src="{{ section.settings.icon |  image_url }}" alt="Icon" />
+      {{ section.settings.btn_label }}
+    </a>
+  </div>
+</div>
+
+{%  schema  %} 
+{
+  "name": "HeroSection",
+  "tag": "section",
+  "class": "landing-hero",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon",
+      "label": "Icon"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "text",
+      "id": "btn_label",
+      "label": "Button Label"
+    },
+    {
+      "type": "url",
+      "id": "btn_url",
+      "label": "Button Link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "HeroSection"
+    }
+  ]
+}
+{% endschema %}

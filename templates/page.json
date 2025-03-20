@@ -1,0 +1,107 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_f9gaUE": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_reJzPg": {
+          "type": "heading",
+          "settings": {
+            "heading": "月額 ¥12,298〜実務経験が積めるWebマーケティングスクール",
+            "heading_size": "h1"
+          }
+        },
+        "text_KNEBKV": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "buttons_ft4xxA": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "無料相談はこちら",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_reJzPg",
+        "text_KNEBKV",
+        "buttons_ft4xxA"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/4da6ebea86290264a97b8579000dbea1_1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_aFqK6J": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yeDHcr": {
+          "type": "heading",
+          "settings": {
+            "heading": "月額¥12,298〜マーケターが目指せます",
+            "heading_size": "h1"
+          }
+        },
+        "text_gBR4qH": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "button_GBteJy": {
+          "type": "button",
+          "settings": {
+            "button_label": "無料相談はこちら",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_yeDHcr",
+        "text_gBR4qH",
+        "button_GBteJy"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_f9gaUE",
+    "rich_text_aFqK6J"
+  ]
+}

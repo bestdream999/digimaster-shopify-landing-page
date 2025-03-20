@@ -1,0 +1,62 @@
+<link rel="stylesheet" href="{{ 'section-header.css' | asset_url }}">
+
+<div class="section_nav_bar">
+  <div class="logo">
+    <a href="{{ section.settings.btn_url }}">
+      <img src="{{ section.settings.logo |  image_url }}" alt="Logo" class="logo_image" />
+    </a>
+  </div>
+  <a href="{{ section.settings.btn_url }}" class="nav_link lp">
+    <img src="{{ section.settings.icon |  image_url }}" alt="Icon" class="link_icon"/>
+    {{ section.settings.btn_label }}
+  </a>
+  <div class="hamburger sp">
+    <span class="ham1"></span>
+    <span class="ham2"></span>
+    <span class="ham3"></span>
+  </div>
+</div>
+<div class="sp_toggle">
+  <a href="{{ section.settings.btn_url }}" class="nav_link">
+    <img src="{{ section.settings.icon |  image_url }}" alt="Icon" class="link_icon"/>
+    {{ section.settings.btn_label }}
+  </a>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="{{ 'section-header.js' | asset_url }}" defer></script>
+
+{% schema %}
+{
+  "name": "Navbar",
+  "tag": "section",
+  "class": "navbar-section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "logo",
+      "label": "Logo"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon",
+      "label": "Icon"
+    },
+    {
+      "type": "text",
+      "id": "btn_label",
+      "label": "Button Label"
+    },
+    {
+      "type": "url",
+      "id": "btn_url",
+      "label": "Button Link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Navbar"
+    }
+  ]
+}
+{% endschema %}

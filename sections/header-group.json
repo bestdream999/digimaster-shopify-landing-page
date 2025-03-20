@@ -1,0 +1,18 @@
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "header": {
+      "type": "header",
+      "settings": {
+        "logo": "shopify:\/\/shop_images\/logo.png",
+        "icon": "shopify:\/\/shop_images\/message_icon_f4b499f1-0888-4711-998d-cf94a139ce57.png",
+        "btn_label": "無料相談はこちら",
+        "btn_url": "#"
+      }
+    }
+  },
+  "order": [
+    "header"
+  ]
+}

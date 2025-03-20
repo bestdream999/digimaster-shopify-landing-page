@@ -1,0 +1,88 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_f9gaUE": {
+      "type": "image-banner",
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/banner_image.jpg",
+        "icon": "shopify:\/\/shop_images\/message_icon2.png",
+        "title": "Image Banner",
+        "btn_label": "無料相談はこちら",
+        "btn_url": "#"
+      }
+    },
+    "rich_text_aFqK6J": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yeDHcr": {
+          "type": "heading",
+          "settings": {
+            "heading": "月額¥12,298〜マーケターが目指せます",
+            "heading_size": "h1"
+          }
+        },
+        "text_gBR4qH": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "button_GBteJy": {
+          "type": "button",
+          "settings": {
+            "button_label": "無料相談はこちら",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_yeDHcr",
+        "text_gBR4qH",
+        "button_GBteJy"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "digimaster_RhqJ4q": {
+      "type": "digimaster",
+      "blocks": {
+        "item_bCzh7U": {
+          "type": "item",
+          "settings": {
+            "title": "Subtitle 1",
+            "icon": "shopify:\/\/shop_images\/logo.png"
+          }
+        }
+      },
+      "block_order": [
+        "item_bCzh7U"
+      ],
+      "settings": {
+        "title": "Title"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_f9gaUE",
+    "rich_text_aFqK6J",
+    "digimaster_RhqJ4q"
+  ]
+}

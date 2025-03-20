@@ -1,0 +1,36 @@
+.section_image_banner {
+  
+}
+
+.image_banner {
+
+}
+
+.image_banner>img {
+  width: 100%;
+  margin-top: -64px;
+}
+
+.text_banner {
+  position: absolute;
+  top: 420px;
+  left: 130px;
+}
+
+.text_contain {
+  font-size: 50px;
+  line-height: 80px;
+  letter-spacing: 0;
+  font-family: "Noto Sans JP";
+  font-weight: 700;
+  color: #1F677F;
+}
+
+.text_contain>span {  
+  font-size: 90px;
+  line-height: 80px;
+  letter-spacing: 0;
+  font-family: "FuturaCyrillicMedium";
+  font-weight: 500;
+  color: #1F677F;
+}

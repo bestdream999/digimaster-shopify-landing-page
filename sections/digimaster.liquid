@@ -1,0 +1,50 @@
+<div>
+  <h1>{{ section.settings.title }}</h1>
+  {% for block in section.blocks %}
+    {% if block.type == "item" %}
+      <div class="item">
+        <h3>{{ block.settings.title }}</h3>
+        <img src="{{ block.settings.icon |  image_url: width: 100 }}" alt="item image {{ forloop.index }}">
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+{% schema %}
+{
+  "name": "Digimaster",
+  "tag": "section",
+  "class": "digimaster-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "item",
+      "name": "Item",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icon"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "DigiMaster"
+    }
+  ]
+}
+{% endschema %}
