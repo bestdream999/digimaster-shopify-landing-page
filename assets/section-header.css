@@ -73,6 +73,8 @@
 
 .sp_toggle {
   display: none;
+  position: absolute;
+  width: 100%;
 }
 
 .sp_toggle>.nav_link{

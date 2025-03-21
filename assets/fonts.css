@@ -20,3 +20,24 @@
   font-weight: 700;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'DIN-2014_Bold';
+  src: url('DIN-2014_Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN-2014_Regular';
+  src: url('DIN-2014_Regular.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN-2014_Light';
+  src: url('DIN-2014_Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}

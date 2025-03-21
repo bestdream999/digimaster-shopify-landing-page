@@ -1,10 +1,10 @@
-<link rel="stylesheet" href="{{ 'section-first.css' | asset_url }}">
+<link rel="stylesheet" href="{{ 'section-main.css' | asset_url }}">
 
-<div>
-  <div>
-    <h1>{{ section.settings.content }}</h1>
+<div class="section_first_contain">
+  <div class="text_contain">
+    <h1>月額¥<span>12,298</span>〜マーケターが目指せます</h1>
   </div>
-  <div>
+  <div class="btn_contain">
     <a href="{{ section.settings.btn_url }}">
       <img src="{{ section.settings.icon |  image_url }}" alt="Icon">
       {{ section.settings.btn_label }}
@@ -14,7 +14,7 @@
 
 {% schema %}
 {
-  "name": "SectionFirst",
+  "name": "SectionMain",
   "tag": "section",
   "settings": [
     {
@@ -40,7 +40,7 @@
   ],
   "presets": [
     {
-      "name": "SectionFirst"
+      "name": "SectionMain"
     }
   ]
 }

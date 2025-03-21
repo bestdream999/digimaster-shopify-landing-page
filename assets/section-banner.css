@@ -1,50 +1,3 @@
-:root {
-  --p-20: 1.042vw; /* 20px */
-  --p-30: 1.563vw; /* 30px */
-  --p-32: 1.667vw; /* 32px */
-  --p-40: 2.083vw; /* 40px */
-  --p-42: 2.188vw; /* 42px */
-  --p-50: 2.604vw; /* 50px */
-  --p-60: 3.125vw; /* 60px */
-  --p-70: 3.616vw; /* 70px */
-  --p-80: 4.167vw; /* 80px */
-  --p-90: 4.688vw; /* 90px */
-  --p-100: 5.208vw; /* 100px */
-  --p-185: 9.635vw; /* 185px */
-  --p-210: 10.938vw; /* 210px */
-  --p-330: 17.188vw; /* 330px */
-  --p-350: 18.229vw; /* 350px */
-  --p-540: 28.125vw; /* 540px */
-  --p-860: 44.792vw; /* 860px */
-  --p-1920: 100vw; /* 1920px */
-  --p-1012: 52.708vw; /* 1012px */
-}
-
-@media (max-width: 575px) {    
-  :root {
-    --p575-20: 3.478vw; /* 20px */
-    --p575-30: 5.217vw; /* 30px */
-    --p575-40: 6.956vw; /* 40px */
-    --p575-42: 7.304vw; /* 42px */
-    --p575-50: 8.696vw; /* 50px */
-    --p575-185: 32.174vw; /* 185px */
-    --p575-210: 36.522vw; /* 210px */
-    --p575-330: 57.391vw; /* 330px */
-  }
-}
-
-@media (max-width: 375px) {
-  :root {
-    --p375-10: 2.667vw; /* 10px */
-    --p375-14: 3.733vw; /* 14px */
-    --p375-18: 4.8vw; /* 18px */
-    --p375-20: 5.333vw; /* 20px */
-    --p375-26: 6.933vw; /* 26px */
-    --p375-30: 8vw; /* 30px */
-    --p375-155: 41.333vw; /* 185px */
-  }
-}
-
 .image_banner {
   width: 100vw;
   height: var(--p-1012);
@@ -64,7 +17,7 @@
   height: var(--p-540);
 }
 
-.text_contain {
+.text_banner>.text_contain {
   font-size: var(--p-50);
   line-height: var(--p-80);
   letter-spacing: 0;
@@ -74,7 +27,7 @@
   margin: var(--p-80) var(--p-100) 0 var(--p-100);
 }
 
-.text_contain>span {  
+.text_banner>.text_contain>span {  
   font-size: var(--p-90);
   line-height: var(--p-80);
   letter-spacing: 0;
@@ -165,14 +118,14 @@
     height: var(--p575-185);
   }
 
-  .text_contain {
+  .text_banner>.text_contain {
     font-size: var(--p575-30);
     line-height: var(--p575-42);
     margin: 0;
     text-shadow: 0px 0px 4px #ffffff;
   }
 
-  .text_contain>span {  
+  .text_banner>.text_contain>span {  
     font-size: var(--p575-30);
     line-height: var(--p575-42);
   }
@@ -200,13 +153,13 @@
     left: var(--p375-18);
   }
 
-  .text_contain {
+  .text_banner>.text_contain {
     font-size: var(--p375-20);
     line-height: var(--p375-30);
     text-shadow: 0px 0px 4px #ffffff;
   }
 
-  .text_contain>span {    
+  .text_banner>.text_contain>span {    
     font-size: var(--p375-20);
     line-height: var(--p375-30);
   }
