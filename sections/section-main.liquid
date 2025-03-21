@@ -12,9 +12,26 @@
   </div>
 </div>
 
-<div>
-
+<div class="section_second_contain">
+  <div class="text_contain">
+    <h2>デジマスターとは？</h2>
+  </div>
+  <div class="block_contain">
+    <div class="first_block">
+      <img src="{{ section.settings.second_icon_a | image_url }}" alt="Second Icon">
+      <p>6ヶ月でWebマーケターを育成するスクール</p>
+    </div>
+    <div class="second_block">
+      <img src="{{ section.settings.second_icon_b | image_url }}" alt="Second Icon">
+      <p>副業や転職で必須な実務経験を積める</p>
+    </div>
+    <div class="third_block">
+      <img src="{{ section.settings.second_icon_c | image_url }}" alt="Second Icon">
+      <p>卒業後は提案から実務までをこなせるWebマーケターに</p>
+    </div>
+  </div>
 </div>
+
 
 {% schema %}
 {
@@ -47,7 +64,19 @@
       "label": "Second Content"
     },
     {
-      
+      "type": "image_picker",
+      "id": "second_icon_a",
+      "label": "Second Icon"
+    },
+    {
+      "type": "image_picker",
+      "id": "second_icon_b",
+      "label": "Second Icon"
+    },
+    {
+      "type": "image_picker",
+      "id": "second_icon_c",
+      "label": "Second Icon"
     }
   ],
   "presets": [
