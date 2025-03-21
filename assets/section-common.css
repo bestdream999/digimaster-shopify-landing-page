@@ -1,0 +1,108 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-y: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+  padding: 0px;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+a:hover,
+a:focus,
+a:active {
+  outline: none;
+  text-decoration: none;
+}
+
+input {
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+input:hover,
+input:focus,
+input:active {
+  outline: none;
+}
+
+input::-webkit-input-placeholder {
+  color: #333333;
+}
+
+input::-moz-placeholder {
+  color: #333333;
+}
+
+input:-ms-input-placeholder {
+  color: #333333;
+}
+
+input:-moz-placeholder {
+  color: #333333;
+}
+
+textarea::-webkit-input-placeholder {
+  color: #333333;
+}
+
+textarea::-moz-placeholder {
+  color: #333333;
+}
+
+textarea:-ms-input-placeholder {
+  color: #333333;
+}
+
+textarea:-moz-placeholder {
+  color: #333333;
+}
+
+button:focus {
+  outline: 0;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+img {
+  border: 0px;
+}

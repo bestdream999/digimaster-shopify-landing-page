@@ -1,0 +1,47 @@
+<link rel="stylesheet" href="{{ 'section-first.css' | asset_url }}">
+
+<div>
+  <div>
+    <h1>{{ section.settings.content }}</h1>
+  </div>
+  <div>
+    <a href="{{ section.settings.btn_url }}">
+      <img src="{{ section.settings.icon |  image_url }}" alt="Icon">
+      {{ section.settings.btn_label }}
+    </a>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "SectionFirst",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "content",
+      "label": "Content"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon",
+      "label": "Icon"
+    },
+    {
+      "type": "text",
+      "id": "btn_label",
+      "label": "Button Label"
+    },
+    {
+      "type": "url",
+      "id": "btn_url",
+      "label": "Button Link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "SectionFirst"
+    }
+  ]
+}
+{% endschema %}
