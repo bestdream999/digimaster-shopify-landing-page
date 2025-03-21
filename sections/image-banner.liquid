@@ -1,15 +1,32 @@
 {% comment %} <link rel="stylesheet" href="{{ 'fonts.css' |  asset_url }}"> {% endcomment %}
 <link rel="stylesheet" href="{{ 'section-banner.css' | asset_url }}">
 
+{% style %}
+  .image_banner {
+    background-image: url("{{ section.settings.background_image_lp |  image_url }}");
+  }
+  
+  @media (min-width: 576px) {  
+    .text_banner.has-bg {  
+      background-image: url('{{ section.settings.bg_opacity | image_url }}');  
+    }  
+  }
+
+  @media (max-width: 575px) {    
+    .image_banner {
+      background-image: url("{{ section.settings.background_image_sp |  image_url }}");
+    }
+  }
+{% endstyle %}
+
 <div class="section_image_banner">
   <div class="image_banner">
-    <img src="{{ section.settings.background_image |  image_url }}" alt="Image Banner">
   </div>
-  <div class="text_banner">
+<div class="text_banner has-bg">
     <div class="text_contain">
       月額 ¥<span>12,298</span>〜<br />
       実務経験が積める<br />
-      Webマーケティングスクール
+      Webマーケティング<br class="sp_br" />スクール
     </div>
     <a href="{{ section.settings.btn_url }}" class="button_banner">
       <img src="{{ section.settings.icon |  image_url }}" alt="Icon" />
@@ -26,13 +43,23 @@
   "settings": [
     {
       "type": "image_picker",
-      "id": "background_image",
-      "label": "Background Image"
+      "id": "background_image_lp",
+      "label": "Background Image LP"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image_sp",
+      "label": "Background Image SP"
     },
     {
       "type": "image_picker",
       "id": "icon",
       "label": "Icon"
+    },
+    {
+      "type": "image_picker",
+      "id": "bg_opacity",
+      "label": "Background Opacity Image"
     },
     {
       "type": "text",

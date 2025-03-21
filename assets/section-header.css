@@ -132,7 +132,7 @@
   }
 }
 
-@media (max-width: 580px) {
+@media (max-width: 575px) {
   .lp {
     display: none;
   }
@@ -142,6 +142,17 @@
   }
 }
 
-@media (max-width: 375px) {
-
+@media (max-width: 375px) {  
+  .section_nav_bar {
+    padding: 22px 18px;
+  }
+  
+  .logo {
+    height: 16px;
+    margin-top: -8px;
+  }
+  
+  .logo_image {
+    height: 100%;
+  }
 }
