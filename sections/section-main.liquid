@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="{{ 'section-main.css' | asset_url }}">
 
-<div class="section_first_contain">
+<div class="section_button_contain">
   <div class="text_contain">
     <h1>月額¥<span>12,298</span>〜マーケターが目指せます</h1>
   </div>
@@ -121,7 +121,7 @@
   </div>
 </div>
 
-<div class="section_fourth_contain">
+<div class="section_button_contain">
   <div class="text_contain">
     <h1>月額¥<span>12,298</span>〜マーケターが目指せます</h1>
   </div>
@@ -160,7 +160,7 @@
   <div class="wrapper_sixth">
     <div class="text_contain">
       <h2>知識だけでは足りない。<br />
-        実際に求められるのは、<span>“即戦力の実務経験”</span>です。
+        実際に求められるのは、<br class="sp_block"/><span>“即戦力の実務経験”</span>です。
       </h2>
     </div>
 
@@ -196,7 +196,8 @@
       </div>
       <div class="text_contain_b">
         <h4>
-          <span>デジマスター</span>は、 "<span>リアルな実務経験</span>"を提供する<br />
+          <span>デジマスター</span>は、 <br class="sp_block" />
+          "<span>リアルな実務経験</span>"を提供する<br />
           Webマーケティングスクールです。
         </h4>
       </div>
@@ -204,7 +205,8 @@
 
     <div class="block_third">
       <div class="image_contain">
-        <img src="{{ section.settings.sixth_image_b | image_url }}" alt="Sixth Image">
+        <img src="{{ section.settings.sixth_image_b | image_url }}" alt="Sixth Image" class="pc_image">
+        <img src="{{ section.settings.sixth_image_b_sp | image_url }}" alt="Sixth Image" class="sp_image">
       </div>
       <div class="text_contain">
         <div>01</div>
@@ -216,7 +218,8 @@
 
     <div class="block_fourth">
       <div class="image_contain">
-        <img src="{{ section.settings.sixth_image_c | image_url }}" alt="Sixth Image">
+        <img src="{{ section.settings.sixth_image_c | image_url }}" alt="Sixth Image" class="pc_image">
+        <img src="{{ section.settings.sixth_image_c_sp | image_url }}" alt="Sixth Image" class="sp_image">
       </div>
       <div class="text_contain">
         <div>02</div>
@@ -228,7 +231,8 @@
 
     <div class="block_fifth">
       <div class="image_contain">
-        <img src="{{ section.settings.sixth_image_d | image_url }}" alt="Sixth Image">
+        <img src="{{ section.settings.sixth_image_d | image_url }}" alt="Sixth Image" class="pc_image">
+        <img src="{{ section.settings.sixth_image_d_sp | image_url }}" alt="Sixth Image" class="sp_image">
       </div>
       <div class="text_contain">
         <div>03</div>
@@ -292,16 +296,78 @@
   </div>
 </div>
 
+<div class="section_white_space"><span></span></div>
+
+<div class="section_button_contain">
+  <div class="text_contain">
+    <h1>月額¥<span>12,298</span>〜マーケターが目指せます</h1>
+  </div>
+  <div class="btn_contain">
+    <a href="{{ section.settings.btn_url }}">
+      <img src="{{ section.settings.icon |  image_url }}" alt="Icon">
+      {{ section.settings.btn_label }}
+    </a>
+  </div>
+</div>
+
+<div class="section_nineth_contain">
+  <div class="wrapper_nineth">
+    <div class="text_contain">
+      <h2>受講生の声</h2>
+    </div>
+    <div class="block_contain">
+      <div class="first_block">
+        <div class="image_contain">
+          <img src="{{ section.settings.nineth_image_a | image_url }}" alt="Nineth Image" class="pc_image" />
+          <img src="{{ section.settings.nineth_image_a_sp | image_url }}" alt="Nineth Image" class="sp_image" />
+        </div>
+        <div class="text_contain">
+          <h4>{{ section.settings.nineth_title_a }}</h4>
+          <p>{{ section.settings.nineth_text_a }}</p>
+        </div>
+      </div>
+      <div class="second_block">
+        <div class="image_contain">
+          <img src="{{ section.settings.nineth_image_b | image_url }}" alt="Nineth Image" class="pc_image" />
+          <img src="{{ section.settings.nineth_image_b_sp | image_url }}" alt="Nineth Image" class="sp_image" />
+        </div>
+        <div class="text_contain">
+          <h4>{{ section.settings.nineth_title_b }}</h4>
+          <p>{{ section.settings.nineth_text_b }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section_tenth_contain">
+  <dvi class="wrapper_tenth">
+    <div class="text_contain">
+      <h2>サポート</h2>
+      <p>副業や転職など、あなたが目指す姿を全力でサポートします</p>
+    </div>
+    <div class="image_contain">
+      <div class="first_image">
+        <img src="" alt="">
+        <p>副業案件紹介</p>
+      </div>
+      <div class="second_image">
+        <img src="" alt="">
+        <p>求人紹介</p>
+      </div>
+      <div class="third_image">
+        <img src="" alt="">
+        <p>プロのチャット相談</p>
+      </div>
+    </div>
+  </dvi>
+</div>
+
 {% schema %}
 {
   "name": "SectionMain",
   "tag": "section",
   "settings": [
-    {
-      "type": "text",
-      "id": "content",
-      "label": "Content"
-    },
     {
       "type": "image_picker",
       "id": "icon",
@@ -316,11 +382,6 @@
       "type": "url",
       "id": "btn_url",
       "label": "Button Link"
-    },
-    {
-      "type": "text",
-      "id": "second_content",
-      "label": "Second Content"
     },
     {
       "type": "image_picker",
@@ -406,6 +467,76 @@
       "type": "image_picker",
       "id": "sixth_image_d",
       "label": "Sixth Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "sixth_image_b_sp",
+      "label": "Sixth Image SP"
+    },
+    {
+      "type": "image_picker",
+      "id": "sixth_image_c_sp",
+      "label": "Sixth Image SP"
+    },
+    {
+      "type": "image_picker",
+      "id": "sixth_image_d_sp",
+      "label": "Sixth Image SP"
+    },
+    {
+      "type": "image_picker",
+      "id": "nineth_image_a",
+      "label": "Nineth Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "nineth_image_a_sp",
+      "label": "Nineth Image SP"
+    },
+    {
+      "type": "image_picker",
+      "id": "nineth_image_b",
+      "label": "Nineth Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "nineth_image_b_sp",
+      "label": "Nineth Image SP"
+    },
+    {
+      "type": "text",
+      "id": "nineth_title_a",
+      "label": "Nineth Title"
+    },
+    {
+      "type": "text",
+      "id": "nineth_text_a",
+      "label": "Nineth Text"
+    },
+    {
+      "type": "text",
+      "id": "nineth_title_b",
+      "label": "Nineth Title"
+    },
+    {
+      "type": "text",
+      "id": "nineth_text_b",
+      "label": "Nineth Text"
+    },
+    {
+      "type": "image_picker",
+      "id": "tenth_image_a",
+      "label": "Tenth Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "tenth_image_b",
+      "label": "Tenth Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "tenth_image_c",
+      "label": "Tenth Image"
     }
   ],
   "presets": [
