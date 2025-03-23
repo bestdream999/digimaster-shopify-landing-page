@@ -348,19 +348,39 @@
     </div>
     <div class="image_contain">
       <div class="first_image">
-        <img src="" alt="">
+        <img src="{{ section.settings.tenth_image_a | image_url }}" alt="Tenth Image A">
         <p>副業案件紹介</p>
       </div>
       <div class="second_image">
-        <img src="" alt="">
+        <img src="{{ section.settings.tenth_image_b | image_url }}" alt="Tenth Image B">
         <p>求人紹介</p>
       </div>
       <div class="third_image">
-        <img src="" alt="">
+        <img src="{{ section.settings.tenth_image_c | image_url }}" alt="Tenth Image C">
         <p>プロのチャット相談</p>
       </div>
     </div>
   </dvi>
+</div>
+
+<div class="section_eleventh_contain">
+  <div class="wrapper_eleventh">
+    <div class="text_contain">
+      <h2>選ばれる理由</h2>
+    </div>
+    <div class="shape_contain">
+      <div class="first_shape">
+        <img src="{{ section.settings.eleventh_shape_a | image_url }}" alt="Eleventh Shape A" />
+        <p>実績重視 卒業後すぐに使える<br />
+          ポートフォリオを作成。</p>
+      </div>
+      <div class="second_shape">
+        <img src="{{ section.settings.eleventh_shape_b | image_url }}" alt="Eleventh Shape B" />
+        <p>実績重視 卒業後すぐに使える<br />
+          ポートフォリオを作成。</p>
+      </div>
+    </div>
+  </div>
 </div>
 
 {% schema %}
@@ -537,6 +557,16 @@
       "type": "image_picker",
       "id": "tenth_image_c",
       "label": "Tenth Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "eleventh_shape_a",
+      "label": "Tenth Shape"
+    },
+    {
+      "type": "image_picker",
+      "id": "eleventh_shape_b",
+      "label": "Tenth Shape"
     }
   ],
   "presets": [
