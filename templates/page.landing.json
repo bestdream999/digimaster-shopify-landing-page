@@ -23,11 +23,9 @@
     "section_main_FieM8B": {
       "type": "section-main",
       "settings": {
-        "content": "",
         "icon": "shopify:\/\/shop_images\/message_icon3.png",
         "btn_label": "無料相談はこちら",
         "btn_url": "#",
-        "second_content": "",
         "second_icon_a": "shopify:\/\/shop_images\/second_icon_a.png",
         "second_icon_b": "shopify:\/\/shop_images\/second_icon_b.png",
         "second_icon_c": "shopify:\/\/shop_images\/second_icon_c.png",
@@ -44,7 +42,21 @@
         "sixth_shape": "shopify:\/\/shop_images\/sixth_shape.png",
         "sixth_image_b": "shopify:\/\/shop_images\/sixth_image_b.png",
         "sixth_image_c": "shopify:\/\/shop_images\/sixth_image_c.png",
-        "sixth_image_d": "shopify:\/\/shop_images\/sixth_image_d.png"
+        "sixth_image_d": "shopify:\/\/shop_images\/sixth_image_d.png",
+        "sixth_image_b_sp": "shopify:\/\/shop_images\/sixth_image_b.jpg",
+        "sixth_image_c_sp": "shopify:\/\/shop_images\/sixth_image_c.jpg",
+        "sixth_image_d_sp": "shopify:\/\/shop_images\/sixth_image_d.jpg",
+        "nineth_image_a": "shopify:\/\/shop_images\/nineth_image_a.png",
+        "nineth_image_a_sp": "shopify:\/\/shop_images\/nineth_image_a_sp.png",
+        "nineth_image_b": "shopify:\/\/shop_images\/nineth_image_b.png",
+        "nineth_image_b_sp": "shopify:\/\/shop_images\/nineth_image_b_sp.png",
+        "nineth_title_a": "古田太郎   太郎",
+        "nineth_text_a": "テキストがありますテキストがありますテキストがありますテキストがありますテキストがありますテキストがあります",
+        "nineth_title_b": "古田太郎   太郎",
+        "nineth_text_b": "テキストがありますテキストがありますテキストがありますテキストがありますテキストがありますテキストがあります",
+        "tenth_image_a": "shopify:\/\/shop_images\/tenth_image_a.png",
+        "tenth_image_b": "shopify:\/\/shop_images\/tenth_image_b.png",
+        "tenth_image_c": "shopify:\/\/shop_images\/tenth_image_c.png"
       }
     }
   },
