@@ -26,7 +26,25 @@
         "content": "",
         "icon": "shopify:\/\/shop_images\/message_icon3.png",
         "btn_label": "無料相談はこちら",
-        "btn_url": "#"
+        "btn_url": "#",
+        "second_content": "",
+        "second_icon_a": "shopify:\/\/shop_images\/second_icon_a.png",
+        "second_icon_b": "shopify:\/\/shop_images\/second_icon_b.png",
+        "second_icon_c": "shopify:\/\/shop_images\/second_icon_c.png",
+        "third_icon_a": "shopify:\/\/shop_images\/third_icon_a.png",
+        "third_icon_b": "shopify:\/\/shop_images\/third_icon_b.png",
+        "third_image": "shopify:\/\/shop_images\/third_image.png",
+        "fifth_shape_a_pc": "shopify:\/\/shop_images\/fifth_shape_a.png",
+        "fifth_shape_b_pc": "shopify:\/\/shop_images\/fifth_shape_b.png",
+        "fifth_shape_a_sp": "shopify:\/\/shop_images\/fifth_shape_a_sp.png",
+        "fifth_shape_b_sp": "shopify:\/\/shop_images\/fifth_shape_b_sp.png",
+        "fifth_image": "shopify:\/\/shop_images\/fifth_image.png",
+        "sixth_image_a": "shopify:\/\/shop_images\/sixth_image_a.png",
+        "sixth_icon": "shopify:\/\/shop_images\/sixth_icon_fd3071b7-4662-4712-af26-7f54be5f90f1.png",
+        "sixth_shape": "shopify:\/\/shop_images\/sixth_shape.png",
+        "sixth_image_b": "shopify:\/\/shop_images\/sixth_image_b.png",
+        "sixth_image_c": "shopify:\/\/shop_images\/sixth_image_c.png",
+        "sixth_image_d": "shopify:\/\/shop_images\/sixth_image_d.png"
       }
     }
   },
