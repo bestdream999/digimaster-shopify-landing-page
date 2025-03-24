@@ -371,17 +371,29 @@
     <div class="shape_contain">
       <div class="first_shape">
         <img src="{{ section.settings.eleventh_shape_a | image_url }}" alt="Eleventh Shape A" />
-        <p>実績重視 卒業後すぐに使える<br />
-          ポートフォリオを作成。</p>
+        <p>実績重視卒業後すぐに使える<br class="pc_block" /><b>ポートフォリオ</b>を作成。</p>
       </div>
       <div class="second_shape">
         <img src="{{ section.settings.eleventh_shape_b | image_url }}" alt="Eleventh Shape B" />
-        <p>実績重視 卒業後すぐに使える<br />
-          ポートフォリオを作成。</p>
+        <p>柔軟な学習スタイル<b>オンライン対応</b>で、<br class="pc_block" />どこからでも参加可能。</p>
       </div>
     </div>
   </div>
 </div>
+
+<div class="section_button_contain">
+  <div class="text_contain">
+    <h1>月額¥<span>12,298</span>〜マーケターが目指せます</h1>
+  </div>
+  <div class="btn_contain">
+    <a href="{{ section.settings.btn_url }}">
+      <img src="{{ section.settings.icon |  image_url }}" alt="Icon">
+      {{ section.settings.btn_label }}
+    </a>
+  </div>
+</div>
+
+
 
 {% schema %}
 {
