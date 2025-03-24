@@ -11,6 +11,8 @@
   align-items: center;
   padding: 10px 20px;
   background-color: #e7f1f4;
+  cursor: pointer;
+  margin-bottom: 2px;
 }
 
 .wrapper_faq>.question_contain>span:first-child {
@@ -81,6 +83,10 @@
   width: 100%;
   padding-left: 20px;
 }  
+
+.anti_arrow {
+  transform: rotate(90deg) !important;
+}
 
 @media (max-width: 780px) {
   .wrapper_faq {
