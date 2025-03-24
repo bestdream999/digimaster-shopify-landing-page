@@ -1,0 +1,84 @@
+<link rel="stylesheet" href="{{ 'section-lp-nineth.css' | asset_url }}">
+
+<div class="section_nineth_contain">
+  <div class="wrapper_nineth">
+    <div class="text_contain">
+      <h2>受講生の声</h2>
+    </div>
+    <div class="block_contain">
+      <div class="first_block">
+        <div class="image_contain">
+          <img src="{{ section.settings.nineth_image_a | image_url }}" alt="Nineth Image" class="pc_image" />
+          <img src="{{ section.settings.nineth_image_a_sp | image_url }}" alt="Nineth Image" class="sp_image" />
+        </div>
+        <div class="text_contain">
+          <h4>{{ section.settings.nineth_title_a }}</h4>
+          <p>{{ section.settings.nineth_text_a }}</p>
+        </div>
+      </div>
+      <div class="second_block">
+        <div class="image_contain">
+          <img src="{{ section.settings.nineth_image_b | image_url }}" alt="Nineth Image" class="pc_image" />
+          <img src="{{ section.settings.nineth_image_b_sp | image_url }}" alt="Nineth Image" class="sp_image" />
+        </div>
+        <div class="text_contain">
+          <h4>{{ section.settings.nineth_title_b }}</h4>
+          <p>{{ section.settings.nineth_text_b }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "NinethSection",
+  "settings": [    
+    {
+      "type": "image_picker",
+      "id": "nineth_image_a",
+      "label": "Nineth Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "nineth_image_a_sp",
+      "label": "Nineth Image SP"
+    },
+    {
+      "type": "image_picker",
+      "id": "nineth_image_b",
+      "label": "Nineth Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "nineth_image_b_sp",
+      "label": "Nineth Image SP"
+    },
+    {
+      "type": "text",
+      "id": "nineth_title_a",
+      "label": "Nineth Title"
+    },
+    {
+      "type": "text",
+      "id": "nineth_text_a",
+      "label": "Nineth Text"
+    },
+    {
+      "type": "text",
+      "id": "nineth_title_b",
+      "label": "Nineth Title"
+    },
+    {
+      "type": "text",
+      "id": "nineth_text_b",
+      "label": "Nineth Text"
+    }
+  ],
+  "presets": [
+    {
+      "name": "NinethSection"
+    }
+  ]
+}
+{% endschema %}

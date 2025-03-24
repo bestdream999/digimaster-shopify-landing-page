@@ -41,3 +41,24 @@
   font-weight: 300;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('HelveticaNeueBold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('HelveticaNeueMedium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('HelveticaNeueLight.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}

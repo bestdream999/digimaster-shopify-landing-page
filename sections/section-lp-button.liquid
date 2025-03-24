@@ -1,0 +1,42 @@
+<link rel="stylesheet" href="{{ 'section-lp-button.css' | asset_url }}">
+
+<div class="section_button_contain">
+  <div class="text_contain">
+    <h1>月額¥<span>12,298</span>〜マーケターが目指せます</h1>
+  </div>
+  <div class="btn_contain">
+    <a href="{{ section.settings.btn_url }}">
+      <img src="{{ section.settings.icon |  image_url }}" alt="Icon">
+      {{ section.settings.btn_label }}
+    </a>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "ButtonSection",
+  "tag": "section",
+  "settings": [      
+    {
+      "type": "image_picker",
+      "id": "icon",
+      "label": "Icon"
+    },
+    {
+      "type": "text",
+      "id": "btn_label",
+      "label": "Button Label"
+    },
+    {
+      "type": "url",
+      "id": "btn_url",
+      "label": "Button Link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "ButtonSection"
+    }
+  ]
+}
+{% endschema %}

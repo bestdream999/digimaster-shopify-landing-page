@@ -1,0 +1,43 @@
+<link rel="stylesheet" href="{{ 'section-lp-eleventh.css' | asset_url }}">
+
+<div class="section_eleventh_contain">
+  <div class="wrapper_eleventh">
+    <div class="text_contain">
+      <h2>選ばれる理由</h2>
+    </div>
+    <div class="shape_contain">
+      <div class="first_shape">
+        <img src="{{ section.settings.eleventh_shape_a | image_url }}" alt="Eleventh Shape A" />
+        <p>実績重視卒業後すぐに使える<br class="pc_block" /><b>ポートフォリオ</b>を作成。</p>
+      </div>
+      <div class="second_shape">
+        <img src="{{ section.settings.eleventh_shape_b | image_url }}" alt="Eleventh Shape B" />
+        <p>柔軟な学習スタイル<b>オンライン対応</b>で、<br class="pc_block" />どこからでも参加可能。</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "EleventhSection",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "eleventh_shape_a",
+      "label": "Eleventh Shape"
+    },
+    {
+      "type": "image_picker",
+      "id": "eleventh_shape_b",
+      "label": "Eleventh Shape"
+    }
+  ],
+  "presets": [
+    {
+      "name": "EleventhSection"
+    }
+  ]
+}
+{% endschema %}

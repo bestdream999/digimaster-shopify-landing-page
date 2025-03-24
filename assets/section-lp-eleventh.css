@@ -1,0 +1,191 @@
+/*#region section eleventh*/
+.section_eleventh_contain {
+  width: 1400px;
+  margin: 120px auto;
+  padding: 0 100px;
+}
+
+.section_eleventh_contain>.wrapper_eleventh {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section_eleventh_contain>.wrapper_eleventh>.text_contain {
+  margin-bottom: 40px;
+}
+
+.section_eleventh_contain>.wrapper_eleventh>.text_contain>h2 {
+  font-family: 'Noto Sans JP';
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0;  
+  text-align: center;
+}
+
+.section_eleventh_contain>.wrapper_eleventh>.shape_contain {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 70%;
+}
+
+.section_eleventh_contain>.wrapper_eleventh>.shape_contain>div {
+  text-align: center;
+}
+
+.section_eleventh_contain>.wrapper_eleventh>.shape_contain>.first_shape {
+  margin-right: 45px;
+}
+
+.section_eleventh_contain>.wrapper_eleventh>.shape_contain>.second_shape {
+  margin-left: 45px;
+}
+
+.section_eleventh_contain>.wrapper_eleventh>.shape_contain>div>img {
+  height: 170px;
+}
+
+.section_eleventh_contain>.wrapper_eleventh>.shape_contain>div>p {
+  font-family: 'Noto Sans JP';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0;
+  margin-top: 40px;
+}
+
+.pc_block {
+  display: block;
+}
+
+@media (max-width: 1400px) {
+  .section_eleventh_contain {
+    width: 100%;
+    padding: 0 var(--p1400-100);
+  }
+}
+
+@media (max-width: 1200px) {
+  .section_eleventh_contain {
+    margin: 100px auto;
+  }
+  
+  .section_eleventh_contain>.wrapper_eleventh>.text_contain>h2 {
+    font-size: 40px;
+  }
+
+  .section_eleventh_contain>.wrapper_eleventh>.shape_contain {
+    width: 80%;
+  }
+}
+
+@media (max-width: 990px) {
+  .section_eleventh_contain {
+    margin: 80px auto;
+  }
+  
+  .section_eleventh_contain>.wrapper_eleventh>.text_contain>h2 {
+    font-size: 36px;
+  }  
+
+  .section_eleventh_contain>.wrapper_eleventh>.shape_contain>div {
+    text-align: center;
+  }
+  
+  .section_eleventh_contain>.wrapper_eleventh>.shape_contain>.first_shape {
+    margin-right: 35px;
+  }
+  
+  .section_eleventh_contain>.wrapper_eleventh>.shape_contain>.second_shape {
+    margin-left: 35px;
+  }
+  
+  .section_eleventh_contain>.wrapper_eleventh>.shape_contain>div>img {
+    height: 150px;
+  }
+  
+  .section_eleventh_contain>.wrapper_eleventh>.shape_contain>div>p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 780px) {
+  .section_eleventh_contain {
+    margin: 60px auto;
+  }
+  
+  .section_eleventh_contain>.wrapper_eleventh>.text_contain>h2 {
+    font-size: 32px;
+  }
+  
+  .section_eleventh_contain>.wrapper_eleventh>.shape_contain>div>p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 16px;
+  }
+}
+
+@media (max-width: 575px) {
+  .section_eleventh_contain {
+    margin: var(--p575-60) auto;
+    padding: 0 var(--p575-28);
+  }
+  
+  .section_eleventh_contain>.wrapper_eleventh>.text_contain>h2 {
+    font-size: var(--p575-28);
+  }
+
+  .section_eleventh_contain>.wrapper_eleventh>.shape_contain {
+    width: 100%;
+  }
+  
+  .section_eleventh_contain>.wrapper_eleventh>.shape_contain>.first_shape {
+    margin-right: 20px;
+  }
+  
+  .section_eleventh_contain>.wrapper_eleventh>.shape_contain>.second_shape {
+    margin-left: 20px;
+  }
+  
+  .section_eleventh_contain>.wrapper_eleventh>.shape_contain>div>img {
+    height: 140px;
+  }
+  
+  .section_eleventh_contain>.wrapper_eleventh>.shape_contain>div>p {
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 20px;
+  }
+
+  .pc_block {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  .section_eleventh_contain {
+    margin: 40px auto;
+    padding: 0 var(--p575-28);
+  }
+  
+  .section_eleventh_contain>.wrapper_eleventh>.text_contain>h2 {
+    font-size: 24px;
+  }
+
+  .section_eleventh_contain>.wrapper_eleventh>.text_contain {
+    margin-bottom: 40px;
+  }
+  
+  .section_eleventh_contain>.wrapper_eleventh>.shape_contain>div>p {
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 20px;
+  }
+}
+/*#endregion section eleventh*/
+

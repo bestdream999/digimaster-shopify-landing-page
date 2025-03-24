@@ -1,0 +1,63 @@
+<link rel="stylesheet" href="{{ 'section-lp-fifth.css' | asset_url }}">
+
+<div class="section_fifth_contain">
+  <div class="wrapper_fifth">
+    <div class="text_contain">
+      <h2>未経験から本当に大丈夫？</h2>
+    </div>
+    <div class="shape_contain">
+      <div class="shape_first">
+        <img src="{{ section.settings.fifth_shape_a_pc|  image_url }}" alt="Fifth Shape" class="shape_pc" />
+        <img src="{{ section.settings.fifth_shape_a_sp |  image_url }}" alt="Fifth Shape" class="shape_sp" />
+        <p>PCスキルに<br class="sp_p" />自信がない。。</p>
+      </div>
+      <div class="shape_second">
+        <img src="{{ section.settings.fifth_shape_b_pc |  image_url }}" alt="Fifth Shape" class="shape_pc" />
+        <img src="{{ section.settings.fifth_shape_b_sp |  image_url }}" alt="Fifth Shape" class="shape_sp" />
+        <p>マーケティングは<br class="sp_p" />難しそう。。</p>
+      </div>
+    </div>
+    <div class="image_contain">
+      <img src="{{ section.settings.fifth_image | image_url }}" alt="Fifth Image">
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "FifthSection",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "fifth_shape_a_pc",
+      "label": "Fifth Shape"
+    },
+    {
+      "type": "image_picker",
+      "id": "fifth_shape_b_pc",
+      "label": "Fifth Shape"
+    },
+    {
+      "type": "image_picker",
+      "id": "fifth_shape_a_sp",
+      "label": "Fifth Shape"
+    },
+    {
+      "type": "image_picker",
+      "id": "fifth_shape_b_sp",
+      "label": "Fifth Shape"
+    },
+    {
+      "type": "image_picker",
+      "id": "fifth_image",
+      "label": "Fifth Image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "FifthSection"
+    }
+  ]
+}
+{% endschema %}

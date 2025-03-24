@@ -9,7 +9,7 @@
       }
     },
     "image_banner_f9gaUE": {
-      "type": "image-banner",
+      "type": "section-lp-banner",
       "settings": {
         "background_image_lp": "shopify:\/\/shop_images\/banner_image_lp.png",
         "background_image_sp": "shopify:\/\/shop_images\/banner_image_sp.png",
@@ -20,23 +20,51 @@
         "btn_url": "#"
       }
     },
-    "section_main_FieM8B": {
-      "type": "section-main",
+    "section_lp_button_Eq7ixV": {
+      "type": "section-lp-button",
       "settings": {
         "icon": "shopify:\/\/shop_images\/message_icon3.png",
         "btn_label": "無料相談はこちら",
-        "btn_url": "#",
+        "btn_url": "#"
+      }
+    },
+    "section_lp_second_REKAD6": {
+      "type": "section-lp-second",
+      "settings": {
         "second_icon_a": "shopify:\/\/shop_images\/second_icon_a.png",
         "second_icon_b": "shopify:\/\/shop_images\/second_icon_b.png",
-        "second_icon_c": "shopify:\/\/shop_images\/second_icon_c.png",
+        "second_icon_c": "shopify:\/\/shop_images\/second_icon_c.png"
+      }
+    },
+    "section_lp_third_EWd4xd": {
+      "type": "section-lp-third",
+      "settings": {
         "third_icon_a": "shopify:\/\/shop_images\/third_icon_a.png",
         "third_icon_b": "shopify:\/\/shop_images\/third_icon_b.png",
-        "third_image": "shopify:\/\/shop_images\/third_image.png",
+        "third_image": "shopify:\/\/shop_images\/third_image.png"
+      }
+    },
+    "section_lp_button_BaBa9i": {
+      "type": "section-lp-button",
+      "settings": {
+        "icon": "shopify:\/\/shop_images\/message_icon3.png",
+        "btn_label": "無料相談はこちら",
+        "btn_url": "#"
+      }
+    },
+    "section_lp_fifth_9ppJYK": {
+      "type": "section-lp-fifth",
+      "settings": {
         "fifth_shape_a_pc": "shopify:\/\/shop_images\/fifth_shape_a.png",
         "fifth_shape_b_pc": "shopify:\/\/shop_images\/fifth_shape_b.png",
         "fifth_shape_a_sp": "shopify:\/\/shop_images\/fifth_shape_a_sp.png",
         "fifth_shape_b_sp": "shopify:\/\/shop_images\/fifth_shape_b_sp.png",
-        "fifth_image": "shopify:\/\/shop_images\/fifth_image.png",
+        "fifth_image": "shopify:\/\/shop_images\/fifth_image.png"
+      }
+    },
+    "section_lp_sixth_Y6EEEh": {
+      "type": "section-lp-sixth",
+      "settings": {
         "sixth_image_a": "shopify:\/\/shop_images\/sixth_image_a.png",
         "sixth_icon": "shopify:\/\/shop_images\/sixth_icon_fd3071b7-4662-4712-af26-7f54be5f90f1.png",
         "sixth_shape": "shopify:\/\/shop_images\/sixth_shape.png",
@@ -45,7 +73,20 @@
         "sixth_image_d": "shopify:\/\/shop_images\/sixth_image_d.png",
         "sixth_image_b_sp": "shopify:\/\/shop_images\/sixth_image_b.jpg",
         "sixth_image_c_sp": "shopify:\/\/shop_images\/sixth_image_c.jpg",
-        "sixth_image_d_sp": "shopify:\/\/shop_images\/sixth_image_d.jpg",
+        "sixth_image_d_sp": "shopify:\/\/shop_images\/sixth_image_d.jpg"
+      }
+    },
+    "section_lp_button_Jt7yne": {
+      "type": "section-lp-button",
+      "settings": {
+        "icon": "shopify:\/\/shop_images\/message_icon3.png",
+        "btn_label": "無料相談はこちら",
+        "btn_url": "#"
+      }
+    },
+    "section_lp_nineth_Q7YK9B": {
+      "type": "section-lp-nineth",
+      "settings": {
         "nineth_image_a": "shopify:\/\/shop_images\/nineth_image_a.png",
         "nineth_image_a_sp": "shopify:\/\/shop_images\/nineth_image_a_sp.png",
         "nineth_image_b": "shopify:\/\/shop_images\/nineth_image_b.png",
@@ -53,12 +94,35 @@
         "nineth_title_a": "古田太郎   太郎",
         "nineth_text_a": "テキストがありますテキストがありますテキストがありますテキストがありますテキストがありますテキストがあります",
         "nineth_title_b": "古田太郎   太郎",
-        "nineth_text_b": "テキストがありますテキストがありますテキストがありますテキストがありますテキストがありますテキストがあります",
+        "nineth_text_b": "テキストがありますテキストがありますテキストがありますテキストがありますテキストがありますテキストがあります"
+      }
+    },
+    "section_lp_tenth_JcqcXX": {
+      "type": "section-lp-tenth",
+      "settings": {
         "tenth_image_a": "shopify:\/\/shop_images\/tenth_image_a_fd305a20-1309-41a0-8c6d-67b4191d3055.png",
         "tenth_image_b": "shopify:\/\/shop_images\/tenth_image_b.png",
-        "tenth_image_c": "shopify:\/\/shop_images\/tenth_image_c.png",
+        "tenth_image_c": "shopify:\/\/shop_images\/tenth_image_c.png"
+      }
+    },
+    "section_lp_eleventh_JyDrTm": {
+      "type": "section-lp-eleventh",
+      "settings": {
         "eleventh_shape_a": "shopify:\/\/shop_images\/eleventh_shape_a.png",
-        "eleventh_shape_b": "shopify:\/\/shop_images\/eleventh_shape_b.png",
+        "eleventh_shape_b": "shopify:\/\/shop_images\/eleventh_shape_b.png"
+      }
+    },
+    "section_lp_button_UUMVMt": {
+      "type": "section-lp-button",
+      "settings": {
+        "icon": "shopify:\/\/shop_images\/message_icon3.png",
+        "btn_label": "無料相談はこちら",
+        "btn_url": "#"
+      }
+    },
+    "section_lp_twelveth_EQheEA": {
+      "type": "section-lp-twelveth",
+      "settings": {
         "twelveth_image_a": "shopify:\/\/shop_images\/twelveth_image_a.png",
         "twelveth_title_a": "古田太郎",
         "twelveth_job_a": "職種テキスト",
@@ -70,15 +134,107 @@
         "twelveth_image_c": "shopify:\/\/shop_images\/twelveth_image_c.png",
         "twelveth_title_c": "古田太郎",
         "twelveth_job_c": "職種テキスト",
-        "twelveth_text_c": "ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。",
+        "twelveth_text_c": "ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。"
+      }
+    },
+    "section_lp_thirteenth_nxB89d": {
+      "type": "section-lp-thirteenth",
+      "settings": {
         "thirteenth_price_text": "248,000",
         "apply_btn_url_": "#"
       }
+    },
+    "section_main_FieM8B": {
+      "type": "section-lp-faqtitle",
+      "settings": {}
+    },
+    "section_lp_faq_L8y7TV": {
+      "type": "section-lp-faq",
+      "settings": {
+        "question_content": "ここにタイトルテキストがあります。",
+        "answer_content": "ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。"
+      }
+    },
+    "section_lp_faq_czQmkC": {
+      "type": "section-lp-faq",
+      "settings": {
+        "question_content": "ここにタイトルテキストがあります。",
+        "answer_content": "ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。"
+      }
+    },
+    "section_lp_faq_pFFqzf": {
+      "type": "section-lp-faq",
+      "settings": {
+        "question_content": "ここにタイトルテキストがあります。",
+        "answer_content": "ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。"
+      }
+    },
+    "section_lp_faq_zK7DYN": {
+      "type": "section-lp-faq",
+      "settings": {
+        "question_content": "ここにタイトルテキストがあります。",
+        "answer_content": "ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。"
+      }
+    },
+    "section_lp_faq_WD9mnT": {
+      "type": "section-lp-faq",
+      "settings": {
+        "question_content": "ここにタイトルテキストがあります。",
+        "answer_content": "ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。"
+      }
+    },
+    "section_lp_faq_bYzb66": {
+      "type": "section-lp-faq",
+      "settings": {
+        "question_content": "ここにタイトルテキストがあります。",
+        "answer_content": "ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。"
+      }
+    },
+    "section_lp_faq_Wya6dH": {
+      "type": "section-lp-faq",
+      "settings": {
+        "question_content": "ここにタイトルテキストがあります。",
+        "answer_content": "ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。"
+      }
+    },
+    "section_lp_button_kUtVHy": {
+      "type": "section-lp-button",
+      "settings": {
+        "icon": "shopify:\/\/shop_images\/message_icon3.png",
+        "btn_label": "無料相談はこちら",
+        "btn_url": "#"
+      }
+    },
+    "section_lp_white_7TUBnN": {
+      "type": "section-lp-white",
+      "settings": {}
     }
   },
   "order": [
     "main",
     "image_banner_f9gaUE",
-    "section_main_FieM8B"
+    "section_lp_button_Eq7ixV",
+    "section_lp_second_REKAD6",
+    "section_lp_third_EWd4xd",
+    "section_lp_button_BaBa9i",
+    "section_lp_fifth_9ppJYK",
+    "section_lp_sixth_Y6EEEh",
+    "section_lp_button_Jt7yne",
+    "section_lp_nineth_Q7YK9B",
+    "section_lp_tenth_JcqcXX",
+    "section_lp_eleventh_JyDrTm",
+    "section_lp_button_UUMVMt",
+    "section_lp_twelveth_EQheEA",
+    "section_lp_thirteenth_nxB89d",
+    "section_main_FieM8B",
+    "section_lp_faq_L8y7TV",
+    "section_lp_faq_czQmkC",
+    "section_lp_faq_pFFqzf",
+    "section_lp_faq_zK7DYN",
+    "section_lp_faq_WD9mnT",
+    "section_lp_faq_bYzb66",
+    "section_lp_faq_Wya6dH",
+    "section_lp_white_7TUBnN",
+    "section_lp_button_kUtVHy"
   ]
 }

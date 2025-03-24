@@ -1,0 +1,16 @@
+.section_white_contain {  
+  width: 100%;
+  height: 120px;
+}
+
+@media (max-width: 1400px) {
+  .section_white_contain {
+    height: var(--p1400-120);
+  }
+}
+
+@media (max-width: 575px) {
+  .section_white_contain {
+    height: var(--p575-60);
+  }
+}

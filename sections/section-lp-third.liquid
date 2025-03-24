@@ -1,0 +1,119 @@
+<link rel="stylesheet" href="{{ 'section-lp-third.css' | asset_url }}">
+
+<div class="section_third_contain">
+  <div class="text_contain">
+    <h2>デジマスターの強み</h2>
+  </div>
+  <div class="block_contain">
+    <div class="first_block">
+      <div class="block_text">
+        <div>
+          <div>01</div>
+          <h3>業界最安値水準の月額¥12,298〜</h3>
+        </div>
+      </div>
+      <div class="block_table">
+        <table>
+          <thead>
+            <tr>
+              <th class="th1"></th>
+              <th class="th2"><div>デジマ<br class="sp_table" />スター</div></th>
+              <th class="th3"><div>A社</div></th>
+              <th class="th4"><div>B社</div></th>
+              <th class="th5"><div>C社</div></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="td1">受講費用（総額）</td>
+              <td class="td2">24.8<span>万円〜</span></td>
+              <td class="td3">38.5<span>万円〜</span></td>
+              <td class="td3">46.2<span>万円〜</span></td>
+              <td class="td3">26.7<span>万円〜</span></td>
+            </tr>
+            <tr>
+              <td class="td1">入会金</td>
+              <td class="td2">-</td>
+              <td class="td3">7<span>万円</span></td>
+              <td class="td3">-</td>
+              <td class="td3">-</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="second_block">
+      <div class="block_text">
+        <div>
+          <div>02</div>
+          <h3>キャリア面談や追加講義などのオプションが充実</h3>
+        </div>
+      </div>
+      <div class="block_block">
+        <div class="b_block_first">
+          <div class="b_block_image">
+            <img src="{{ section.settings.third_icon_a |  image_url }}" alt="Third Icon">
+          </div>
+          <div class="b_block_text">
+            <h4>キャリア面談</h4>
+            <p>現在も最前線で活躍するマーケティング/広告代理店出身者が模擬面談や書類添削を対応</p>
+          </div>
+        </div>
+        <div class="b_block_second">
+          <div class="b_block_image">
+            <img src="{{ section.settings.third_icon_b | image_url }}" alt="Third Icon">
+          </div>
+          <div class="b_block_text">
+            <h4>追加講義例</h4>
+            <p>
+              ・Chat GPT活用<br />
+              ・HTML/CSS講座<br />
+              ・Word Press入稿<br />
+              ※1コマ〜選択可能。別途料金。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="third_block">
+      <div class="block_text">
+        <div>
+          <div>03</div>
+          <h3>全額返金制度あり</h3>
+        </div>
+      </div>
+      <div class="block_image">
+        <img src="{{ section.settings.third_image |  image_url }}" alt="Third Image">
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "ThirdSection",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "third_icon_a",
+      "label": "Third Icon"
+    },
+    {
+      "type": "image_picker",
+      "id": "third_icon_b",
+      "label": "Third Icon"
+    },
+    {
+      "type": "image_picker",
+      "id": "third_image",
+      "label": "Third Image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "ThirdSection"
+    }
+  ]
+}
+{% endschema %}

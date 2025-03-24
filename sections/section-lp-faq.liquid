@@ -1,0 +1,37 @@
+<link rel="stylesheet" href="{{ 'section-lp-faq.css' | asset_url }}">
+
+<div class="wrapper_faq">
+  <div class="question_contain">
+    <span>Q</span>
+    <p>{{ section.settings.question_content }}</p>
+    <span>&#10095;</span>
+  </div>
+  <div class="answer_contain">
+    <span>A</span>
+    <p>{{ section.settings.answer_content }}</p>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "FAQSection",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "question_content",
+      "label": "Question Content"
+    },
+    {
+      "type": "text",
+      "id": "answer_content",
+      "label": "Answer Content"
+    }
+  ],
+  "presets": [
+    {
+      "name": "FAQSection"
+    }
+  ]
+}
+{% endschema %}

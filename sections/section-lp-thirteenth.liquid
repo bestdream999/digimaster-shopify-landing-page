@@ -1,0 +1,58 @@
+<link rel="stylesheet" href="{{ 'section-lp-thirteenth.css' | asset_url }}">
+
+<div class="section_thirteenth_contain">
+  <div class="wrapper_thirteenth">
+    <div>
+      <div class="text_contain">
+        <h4><span>／</span>あなたも一歩踏み出してみませんか？<span>／</span></h4>
+        <div>
+          <h4>Webマーケターになる第一歩は、<span>デジマスター</span>でのリアルな実務経験から。</h4>
+        </div>
+      </div>
+      <div class="shape_contain">
+        <div class="shape_a">
+          <p>今なら特典付き！</p>
+        </div>
+        <div class="shape_b">
+          <p>初回無料相談</p>
+        </div>
+      </div>
+      <div class="button_contain">
+        <a href="{{ section.settings.apply_btn_url_ }}">
+          <p class="pc_block">お申込みはこちらから</p>
+          <p class="sp_block">無料相談はこちらから</p>
+          <span>&#10095;</span>
+        </a>
+      </div>
+      <div class="price_contain">
+        <div class="total_price pc_block">総額</div>
+        <div class="total_price sp_block">月額<br />費用</div>
+        <p><span>¥</span><span>{{ section.settings.thirteenth_price_text }}</span>（税込）</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "ThirteenthSection",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "thirteenth_price_text",
+      "label": "Thirteenth Price Text "
+    },
+    {
+      "type": "url",
+      "id": "apply_btn_url_",
+      "label": "Apply Button Link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "ThirteenthSection"
+    }
+  ]
+}
+{% endschema %}

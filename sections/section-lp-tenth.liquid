@@ -1,0 +1,53 @@
+<link rel="stylesheet" href="{{ 'section-lp-tenth.css' | asset_url }}">
+
+<div class="section_tenth_contain">
+  <dvi class="wrapper_tenth">
+    <div class="text_contain">
+      <h2>サポート</h2>
+      <p>副業や転職など、あなたが目指す姿を全力でサポートします</p>
+    </div>
+    <div class="image_contain">
+      <div class="first_image">
+        <img src="{{ section.settings.tenth_image_a | image_url }}" alt="Tenth Image A">
+        <p>副業案件紹介</p>
+      </div>
+      <div class="second_image">
+        <img src="{{ section.settings.tenth_image_b | image_url }}" alt="Tenth Image B">
+        <p>求人紹介</p>
+      </div>
+      <div class="third_image">
+        <img src="{{ section.settings.tenth_image_c | image_url }}" alt="Tenth Image C">
+        <p>プロのチャット相談</p>
+      </div>
+    </div>
+  </dvi>
+</div>
+
+{% schema %}
+{
+  "name": "TenthSection",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "tenth_image_a",
+      "label": "Tenth Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "tenth_image_b",
+      "label": "Tenth Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "tenth_image_c",
+      "label": "Tenth Image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "TenthSection"
+    }
+  ]
+}
+{% endschema %}

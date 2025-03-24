@@ -1,0 +1,104 @@
+/*#region section faq_title*/
+.section_faq_title_contain {
+  width: 1400px;
+  margin: 120px auto 0;
+  padding: 0 100px;
+}
+
+.section_faq_title_contain>.wrapper_faq_title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section_faq_title_contain>.wrapper_faq_title>.text_contain>h2 {
+  font-family: 'Noto Sans JP';
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0;  
+  text-align: center;
+}
+
+.section_faq_title_contain>.wrapper_faq_title>.text_contain {
+  margin-bottom: 60px;
+}
+
+@media (max-width: 1400px) {
+  .section_faq_title_contain {
+    width: 100%;
+    padding: 0 var(--p1400-100);
+  }
+}
+
+@media (max-width: 1200px) {
+  .section_faq_title_contain {
+    margin: 100px auto 0;
+  }
+  
+  .section_faq_title_contain>.wrapper_faq_title>.text_contain>h2 {
+    font-size: 40px;
+  }
+  
+  .section_faq_title_contain>.wrapper_faq_title>.text_contain {
+    margin-bottom: 50px;
+  }  
+}
+
+@media (max-width: 990px) {
+  .section_faq_title_contain {
+    margin: 80px auto 0;
+  }
+  
+  .section_faq_title_contain>.wrapper_faq_title>.text_contain>h2 {
+    font-size: 36px;
+  }
+  
+  .section_faq_title_contain>.wrapper_faq_title>.text_contain {
+    margin-bottom: 40px;
+  }  
+}
+
+@media (max-width: 780px) {
+  .section_faq_title_contain {
+    margin: 60px auto 0;
+  }
+  
+  .section_faq_title_contain>.wrapper_faq_title>.text_contain>h2 {
+    font-size: 32px;
+  }
+  
+  .section_faq_title_contain>.wrapper_faq_title>.text_contain {
+    margin-bottom: 30px;
+  }  
+}
+
+@media (max-width: 575px) {
+  .section_faq_title_contain {
+    margin: var(--p575-60) auto 0;
+  }
+  
+  .section_faq_title_contain>.wrapper_faq_title>.text_contain>h2 {
+    font-size: var(--p575-28);
+  }
+  
+  .section_faq_title_contain>.wrapper_faq_title>.text_contain {
+    margin-bottom: var(--p575-30);
+  }  
+}
+
+@media (max-width: 375px) {  
+  .section_faq_title_contain {
+    margin: 40px auto 0;
+  }
+  
+  .section_faq_title_contain>.wrapper_faq_title>.text_contain>h2 {
+    font-size: 24px;
+  }
+  
+  .section_faq_title_contain>.wrapper_faq_title>.text_contain {
+    margin-bottom: 20px;
+  }  
+}
+/*#endregion section faq_title*/
