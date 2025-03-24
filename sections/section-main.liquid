@@ -393,7 +393,33 @@
   </div>
 </div>
 
-
+<div class="section_twelveth_contain">
+  <div class="wrapper_twelveth">
+    <div class="text_contain">
+      <h2>スタッフ紹介</h2>
+    </div>
+    <div class="image_contain">
+      <div class="first_image">
+        <img src="{{ section.settings.twelveth_image_a | image_url }}" alt="Twelveth Image A">
+        <h4>{{ section.settings.twelveth_title_a }}<span>{{ section.settings.twelveth_job_a }}</span></h4>
+        <div><sapn></sapn></div>
+        <p>{{ section.settings.twelveth_text_a }}</p>
+      </div>
+      <div class="second_image">
+        <img src="{{ section.settings.twelveth_image_b | image_url }}" alt="Twelveth Image B">
+        <h4>{{ section.settings.twelveth_title_b }}<span>{{ section.settings.twelveth_job_b }}</span></h4>
+        <div><sapn></sapn></div>
+        <p>{{ section.settings.twelveth_text_b }}</p>
+      </div>
+      <div class="third_image">
+        <img src="{{ section.settings.twelveth_image_c | image_url }}" alt="Twelveth Image C">
+        <h4>{{ section.settings.twelveth_title_c }}<span>{{ section.settings.twelveth_job_c }}</span></h4>
+        <div><sapn></sapn></div>
+        <p>{{ section.settings.twelveth_text_c }}</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 {% schema %}
 {
@@ -573,12 +599,72 @@
     {
       "type": "image_picker",
       "id": "eleventh_shape_a",
-      "label": "Tenth Shape"
+      "label": "Eleventh Shape"
     },
     {
       "type": "image_picker",
       "id": "eleventh_shape_b",
-      "label": "Tenth Shape"
+      "label": "Eleventh Shape"
+    },
+    {
+      "type": "image_picker",
+      "id": "twelveth_image_a",
+      "label": "Twelveth Image A"
+    },
+    {
+      "type": "text",
+      "id": "twelveth_title_a",
+      "label": "Twelveth Title A"
+    },
+    {
+      "type": "text",
+      "id": "twelveth_job_a",
+      "label": "Twelveth Job A"
+    },
+    {
+      "type": "text",
+      "id": "twelveth_text_a",
+      "label": "Twelveth Text A"
+    },
+    {
+      "type": "image_picker",
+      "id": "twelveth_image_b",
+      "label": "Twelveth Image B"
+    },
+    {
+      "type": "text",
+      "id": "twelveth_title_b",
+      "label": "Twelveth Title B"
+    },
+    {
+      "type": "text",
+      "id": "twelveth_job_b",
+      "label": "Twelveth Job B"
+    },
+    {
+      "type": "text",
+      "id": "twelveth_text_b",
+      "label": "Twelveth Text B"
+    },
+    {
+      "type": "image_picker",
+      "id": "twelveth_image_c",
+      "label": "Twelveth Image C"
+    },
+    {
+      "type": "text",
+      "id": "twelveth_title_c",
+      "label": "Twelveth Title C"
+    },
+    {
+      "type": "text",
+      "id": "twelveth_job_c",
+      "label": "Twelveth Job C"
+    },
+    {
+      "type": "text",
+      "id": "twelveth_text_c",
+      "label": "Twelveth Text C"
     }
   ],
   "presets": [
