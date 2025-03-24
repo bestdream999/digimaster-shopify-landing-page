@@ -70,7 +70,9 @@
         "twelveth_image_c": "shopify:\/\/shop_images\/twelveth_image_c.png",
         "twelveth_title_c": "古田太郎",
         "twelveth_job_c": "職種テキスト",
-        "twelveth_text_c": "ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。"
+        "twelveth_text_c": "ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。ここに概要テキストがあります。",
+        "thirteenth_price_text": "248,000",
+        "apply_btn_url_": "#"
       }
     }
   },
