@@ -124,10 +124,12 @@
 }
 
 .section_thirteenth_contain>.wrapper_thirteenth>div>.button_contain>a {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 30px 90px;
+  overflow: hidden;
 }
 
 .section_thirteenth_contain>.wrapper_thirteenth>div>.button_contain>a>p {
@@ -207,6 +209,18 @@
 
 .sp_block {
   display: none;
+}
+
+.section_thirteenth_contain>.wrapper_thirteenth>div>.button_contain>a::before {
+  position: absolute;
+  content: '';
+  display: inline-block;
+  top: -180px;
+  left: 0;
+  width: 30px;
+  height: 100%;
+  background-color: #fff;
+  animation: gplus-btn-shiny 3s ease-in-out infinite;
 }
 
 @media (max-width: 1400px) { 
