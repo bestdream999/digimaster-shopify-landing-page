@@ -115,7 +115,7 @@
   border-radius: 50px;
   margin-bottom: 60px;
   animation: btnanimation 1.5s linear 0s infinite alternate;  
-  transition: all 0.5s linear;
+  transition: all 0.3s linear;
 }
 
 .section_thirteenth_contain>.wrapper_thirteenth>div>.button_contain:hover {
